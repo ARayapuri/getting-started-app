@@ -54,7 +54,7 @@ function TodoListCard() {
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
                 //<p className="text-center">No items yet! Add one above!</p>
-                  <p className="text-center">Your task list is empty. Please add a task.</p>
+                  <p className="text-center">You have no todo items yet! Add one above!</p>
             )}
             {items.map(item => (
                 <ItemDisplay
